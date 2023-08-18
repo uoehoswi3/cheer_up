@@ -46,3 +46,10 @@ header{
     color: white;
     border: none;
 }
+
+.online {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    bottom: 0;
+}

@@ -10,7 +10,7 @@
 
 .page-header__column {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     
 }
@@ -23,9 +23,8 @@
 .page-header__column h1 {
     font-size: 20px;
     font-weight: 600;
-    margin-right: 173px;
 }
-
+/* 
 #h1h1 {
     margin-right: 153px;
 }
@@ -35,12 +34,16 @@
 }
 #h3h3 {
     margin-right: 95px;
-}
+} */
 
 
 .country-select {
     display: flex;
     align-items: center;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    bottom: 0;
 }
 
 .country-select span {
