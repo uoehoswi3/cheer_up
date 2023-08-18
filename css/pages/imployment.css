@@ -33,9 +33,17 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 14px;
+    position: relative;
 }
 
 .certified {
     margin-bottom: 12px;
     position: relative;
+}
+
+
+.view-posting-btn {
+    position: absolute;
+    left: 15px;
+    top: 153px;
 }
