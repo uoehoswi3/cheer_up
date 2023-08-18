@@ -15,9 +15,10 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 26px;
+    margin-right: 10px;
 }
 
-.button-select__button:last-child {
+.button-noselect__button {
     width: 56px;
     height: 33px;
     background-color: #F2F2F2;
@@ -25,7 +26,7 @@
     font-size: 12px;
     border: none;
     border-radius: 41px;
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .job-posting-list {
@@ -36,4 +37,5 @@
 
 .certified {
     margin-bottom: 12px;
+    position: relative;
 }

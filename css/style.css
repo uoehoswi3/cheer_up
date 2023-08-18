@@ -27,6 +27,7 @@
 body {
   font-family: 'Pretendard-Regular';
   width: 390px;
+  height: 1000px;
   margin: 0px;
 }
 
@@ -227,7 +228,6 @@ a{
   justify-content: space-around;
   background-color:#F4F4F4;
   padding: 20px;
-  position: fixed;
   width: 22em;
   
   
