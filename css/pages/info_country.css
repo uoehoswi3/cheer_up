@@ -48,6 +48,15 @@
 
 .title-with-button {
     display: flex;
+    position: relative;
+}
+
+.title-with-button div {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
 
 .title-with-button__button {
