@@ -153,10 +153,13 @@
     top: 188px;
   }
   .videos__video img{
-    margin-right: 8px;
     margin-bottom: 12px;
   }
-
+.videos__line {
+    width: 348px;
+    display: flex;
+    justify-content: space-between;
+}
 .videos > .long-button{
     position: absolute; 
     top: 530px;
