@@ -1,0 +1,39 @@
+
+.button-select {
+    display: flex;
+}
+
+.button-select__button {
+    width: 56px;
+    height: 33px;
+    background-color: #FFA800;
+    color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 26px;
+}
+
+.button-select__button:last-child {
+    width: 56px;
+    height: 33px;
+    background-color: #F2F2F2;
+    color: #A4A4A4;
+    font-size: 12px;
+    border: none;
+    border-radius: 41px;
+    margin-left: 10px;
+}
+
+.job-posting-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+.certified {
+    margin-bottom: 12px;
+}

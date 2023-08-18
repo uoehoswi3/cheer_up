@@ -1,0 +1,38 @@
+.long-button {
+   width: 350px;
+   height: 47px;
+   background-color: #F9F9F9;
+   border: none;
+   border-radius: 3px;
+   margin: 12px 0;
+   margin-bottom: 35px;
+   color: #2D2D2D;
+   font-weight: 500;
+   font-size: 14px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.small-button {
+    width: 67px;
+    height: 29px;
+    background-color: #FFF7E7;
+    border-color: #FFD585;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+}
+
+.white-button {
+    background-color: white;
+    width: 350px;
+    height: 47px;
+    border: 0.5px solid #F4F4F4;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-top: 22px;
+    margin-bottom: 31px;
+    
+}

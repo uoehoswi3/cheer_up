@@ -1,0 +1,14 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 76px;
+    border-bottom: 1px solid #E8E8E8;
+    margin-bottom: 37px;
+}
+
+.nav-bar2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 76px;
+    border-bottom: 1px solid #E8E8E8;
+}

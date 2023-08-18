@@ -1,0 +1,62 @@
+.recommend-company-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+.popular-company-list {
+    display: flex;
+    flex-direction: column;
+}
+.popular-company{
+    margin-bottom: 23px;
+    height: 75px;
+    border-bottom: 1px solid #E8E8E8;
+    display: flex;
+    position: relative;
+}
+
+.popular-company img {
+    position: absolute;
+}
+
+.popular-company:last-child {
+    border: none;
+    margin-bottom: 0;
+}
+
+.more-btn {
+    position: absolute;
+    right: 0;
+    bottom: 19px;
+}
+
+.back-img {
+    z-index: 2;
+}
+
+.theme-coporation {
+    position: relative;
+}
+.com-info-list {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 188px;
+  }
+
+.com-info-list img{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.theme-coporation :last-child{
+    position: absolute;
+    top:6em;
+    left: 0px;
+}
+
+.theme-coporation > .long-button{
+    position: absolute; 
+    top: 457px;
+  }

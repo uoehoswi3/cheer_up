@@ -1,0 +1,48 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.userline >img{
+    display: block;
+    width: 406px;
+    margin-top: -10px;
+}
+.chat-content{
+    margin-top: 44px;
+    margin-left: 20px;
+}
+
+.chat-content img {
+    margin-bottom : 23px;
+}
+.chat-content :first-child{
+    margin-left: 8em;
+
+}
+    
+.text{
+    background-color: #F9F9F9;
+    margin-top: 57px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.text >input{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    width: 305px;
+    height: 35px;
+    
+  outline: none;
+}
+
+.text >button{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    align-items: center;
+    background-color: #ffb422;
+    border-radius: 4px;
+    color: white;
+    border: none;
+}

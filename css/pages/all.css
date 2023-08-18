@@ -1,0 +1,144 @@
+.filters {
+    display: flex;
+    margin-top: 28px;
+    margin-right: -20px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.filter-icon {
+    margin-right: 16px;
+}
+
+.filters__list {
+    display: flex;
+}
+
+.filters__list__column {
+    height: 30px;
+    border: 1px solid #B7B7B7;
+    border-radius: 41px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    padding: 0 12px;
+}
+
+.filters__list__title {
+    width: 21px;
+    font-weight: 500;
+    font-size: 12px;
+    display: flex;
+}
+
+.filters__list__column img {
+    margin-left: 8px;
+}
+
+.filters__list {
+    display: flex;
+    width: 332px;
+    overflow: auto;
+    align-items: center;
+}
+
+.filters__list::-webkit-scrollbar {
+    display: none;
+}
+
+.filters__filter {
+    margin-right: 10px;
+}
+
+.apply-box {
+    width: 100%;
+    height: 107px;
+    border: 1px solid #E8E8E8;
+    border-radius: 4px;
+    position: relative;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.apply-box__corp {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.apply-box__corp-name {
+    color: #F4A100;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.apply-box__corp img {
+    margin-right: 5px;
+}
+
+.apply-box__title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.apply-box__contents {
+    color: #b1b1b1;
+    font-size: 11px;
+    margin-left: 20px;
+}
+
+.apply-button {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.apply-box__scrap {
+    position:absolute;
+    width: 18px;
+    height: 24px;
+    top:0px;
+    right: 20px;
+}
+
+.page-control {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    margin-bottom: 77px;
+}
+
+.prev, .next {
+    display: flex;
+    width: 32px;
+    height: 29px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E8E8E8;
+    border-radius: 4px;
+}
+
+.number {
+    display: flex;
+    width: 32px;
+    height: 29px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #E8E8E8;
+    border-radius: 4px;
+}
+
+.selected-number {
+    display: flex;
+    width: 32px;
+    height: 29px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: #FFA800;
+}

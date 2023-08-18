@@ -1,0 +1,48 @@
+.page-header {
+    display: flex;
+    margin-top: 39px;
+    margin-left: 20px;
+    margin-bottom: 42px;
+    position: sticky;
+    position: relative;
+    top: 0;
+}
+
+.page-header__column {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+
+.page-header__column img {
+    margin-right: 16px;
+}
+
+.page-header__column h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 173px;
+}
+
+#h1h1 {
+    margin-right: 153px;
+}
+
+
+.country-select {
+    display: flex;
+    align-items: center;
+}
+
+.country-select span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.country-select img {
+    width: 12px;
+    height: 10px;
+    margin-left: 20px;
+}

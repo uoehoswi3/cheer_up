@@ -1,0 +1,252 @@
+/* components */
+@import "components/page-header.css";
+@import "components/button.css";
+@import "components/slide-show.css";
+
+@import "variables.css";
+@import "reset.css";
+
+/* pages */
+@import "pages/info_company.css";
+@import "pages/community.css";
+@import "pages/info_country.css";
+@import "pages/job_posting.css";
+@import "pages/all.css";
+@import "pages/imployment.css";
+@import "pages/company_page.css";
+@import "pages/chat.css";
+@import "pages/question.css";
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Pretendard-Regular';
+  width: 390px;
+  margin: 0px;
+}
+
+
+.main-title{
+  margin-left: 20px;
+  margin-top: 32px;
+  margin-bottom: 38px;
+}
+
+a{
+	color:inherit;
+	text-decoration: none;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+  display: flex;
+  flex-direction: column;
+}
+
+.main-screen__title{
+  font-size: 18px;
+  font-weight: 500;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 44px;
+  margin-bottom: 29px;
+}
+
+.main-screen__title span:last-child {
+  font-size: 12px;
+  color: #868686;
+}
+
+.contour {
+  margin-left: -20px;
+  width: 390px;
+  border-top: 0.5px solid #E8E8E8;
+}
+
+.search {
+  display: flex;
+  background-color: #f6f6f6;
+  width: 350px;
+  height: 45px;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.search i {
+  margin-left: 20px;
+  margin-right: 18px;
+}
+
+.search input {
+  background-color: #f6f6f6;
+  color: #2d2d2d;
+  border: none;
+  accent-color: #575757;
+  outline: none;
+  font-size: 12px;
+  width: 300px;
+}
+
+.fieldset__title {
+  background-color: #ffb422;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 47px;
+  padding: 0 22px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+.checkbox__list {
+  border: 1px solid #E8E8E8;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top: none;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  padding: 17px 20px;
+}
+
+.checkbox__content {
+  margin-bottom: 12px;
+  accent-color: #575757;
+}
+
+.checkbox__content:last-child {
+  margin-bottom: 0px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #E8E8E8;
+  border-radius: 10px;
+  height: 127px;
+}
+.user-info__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-img {
+  margin-left: 20px;
+}
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  margin-right: 17px;
+}
+.user-name {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.user-grade {
+  font-size: 14px;
+}
+.user-status {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f6f6f6;
+  width: 204px;
+  height: 30px;
+  margin-top: 14px;
+  align-items: center;
+}
+.user-status span {
+  margin-left: 12px;
+  font-size: 12px;
+}
+.user-status > .fa-caret-down {
+  margin-right: 10px;
+}
+.resume {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 26px;
+  margin-bottom: 30px;
+}
+.resume__check {
+  font-size: 16px;
+  font-weight: 500;
+}
+.other-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+.other-info__first {
+  background-color: #ffeaec;
+  padding: 20px;
+  border-radius: 20%;
+}
+.other-info__second {
+  background-color: #e7f5ff;
+  padding: 20px;
+  border-radius: 20%;
+}
+.other-info__third {
+  background-color: #fff8ea;
+  padding: 20px;
+  border-radius: 20%;
+}
+.other-info__fourth {
+  background-color: #eaf0ff;
+  padding: 20px;
+  border-radius: 20%;
+}
+.other-info__fifth {
+  background-color: #dbfbdd;
+  padding: 20px;
+  border-radius: 20%;
+}
+.other-info__sixth {
+  background-color: #f4eaff;
+  padding: 20px;
+  border-radius: 20%;
+}
+.menu-bar{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: space-around;
+  background-color:#F4F4F4;
+  padding: 20px;
+  position: fixed;
+  width: 22em;
+  
+  
+
+}
+.home{
+  display: flex;
+  font-size: 21px;
+  border-top-right-radius:20px;
+  
+
+}
+.settings{
+  display: flex;
+  font-size: 21px;
+  border-top-left-radius:10px;
+  
+}
+
+.back-img {
+  margin: 0 -24px;
+}

@@ -1,0 +1,19 @@
+.mentor-info__detail{
+    position: relative;
+    margin-bottom: 16px;
+}
+.mentor-info1__btn{
+    position: absolute;
+    top: 25px;
+    right: 11px;    
+}
+.mentor-info{
+}
+.question-more{
+    width: 350px;
+    margin-top: 40px;
+    padding: 5px;
+    border: none;
+    color: #2D2D2D;
+    background-color: #F9F9F9;
+}
