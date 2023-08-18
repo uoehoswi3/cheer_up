@@ -37,6 +37,7 @@
 
 .theme-coporation {
     position: relative;
+    margin-bottom: 280px;
 }
 .com-info-list {
     display: flex;
@@ -50,13 +51,7 @@
     display: block;
 }
 
-.theme-coporation :last-child{
-    position: absolute;
-    top:6em;
-    left: 0px;
-}
-
 .theme-coporation > .long-button{
     position: absolute; 
-    top: 457px;
+    top: 400px;
   }
